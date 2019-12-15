@@ -17,3 +17,26 @@ const reset = document.getElementById('reset');
 
 let aSquareDiv;
 
+/*Function declarations */
+
+function createGrid(gridSize){
+    for (row = 1; row <= gridSize; row++){
+
+        rows = document.createElement('div');
+        rows.setAttribute('class', 'rows');
+        rows.setAttribute('id',`row-${row}`);
+        
+        for (square = 1; square <= gridSize; square++){
+
+            squareDiv = document.createElement('div');
+            squareDiv.setAttribute('class', 'squares');
+            squareDiv.setAttribute('id', `square-${row}-${square}`);
+
+            squareDiv.addEventListener('mouseenter', changeColorOnMouseEnter);
+            squareDiv.addEventListener('mouseleave', changeColorOnMouseLeave);
+            
+            rows.appendChild(squareDiv);
+        }
+        subContainer3_2.appendChild(rows);  
+    }
+}
