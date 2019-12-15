@@ -57,3 +57,11 @@ function resetGridSize(){
     createGrid(initialGridSize);
 }
 
+function removeGrid(){
+    while(subContainer3_2.hasChildNodes()){
+
+        subContainer3_2.removeChild(subContainer3_2.firstChild);
+    }
+}
+
+
