@@ -48,3 +48,12 @@ function changeColorOnMouseEnter(e){
 function changeColorOnMouseLeave(e){
     e.target.style.backgroundColor = 'rgb(0, 195, 255)'; 
 }
+
+function resetGridSize(){
+    removeGrid();
+
+    currentGridSize = initialGridSize;
+
+    createGrid(initialGridSize);
+}
+
