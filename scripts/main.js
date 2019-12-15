@@ -40,3 +40,7 @@ function createGrid(gridSize){
         subContainer3_2.appendChild(rows);  
     }
 }
+
+function changeColorOnMouseEnter(e){       
+    e.target.style.backgroundColor = 'black';
+}
