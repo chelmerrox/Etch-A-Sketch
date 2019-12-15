@@ -11,3 +11,23 @@ body {
     display: block;
 }
 
+
+#first-container{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+h1 {
+    margin-left: 450px;
+    margin-right: 400px;
+    padding: 20px;
+    color:rgb(0, 195, 255);
+    font-family: sans-serif, arial;
+    font-size: 50px;
+    text-shadow: 1px 1px 5px;
+}
+
+h1:hover {
+    color: rgb(230, 176, 194);
+    box-shadow: 1px 1px 5px;
+}
