@@ -44,3 +44,7 @@ function createGrid(gridSize){
 function changeColorOnMouseEnter(e){       
     e.target.style.backgroundColor = 'black';
 }
+
+function changeColorOnMouseLeave(e){
+    e.target.style.backgroundColor = 'rgb(0, 195, 255)'; 
+}
