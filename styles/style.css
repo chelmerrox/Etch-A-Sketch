@@ -31,3 +31,20 @@ h1:hover {
     color: rgb(230, 176, 194);
     box-shadow: 1px 1px 5px;
 }
+
+#second-container{
+    margin: 10px 100px 5px 100px;
+    padding: 15px;
+    border: 2px solid rgb(0, 195, 255);
+    border-radius: 100px;
+    box-shadow: 1px 1px 10px;
+}
+
+.instructions{
+    color: rgb(0, 195, 255);
+    font-size: 17px;
+    font-family: arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+
+}
