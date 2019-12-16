@@ -110,6 +110,8 @@ function checkIfInteger(userInput){
     return (Number.isInteger(userInput)? true : false);   
 }
 
-
+function checkIfWithinBoundary(userInput){
+    return ((userInput >= min_NumberOfSquares && userInput < 101)? true : false);
+}
 
 
