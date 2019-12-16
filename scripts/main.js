@@ -92,4 +92,12 @@ function askForUserInput(){
     }
 }
 
+function checkIfNumericString(userInput){
+    let numbers = /^[0-9]+$/;   //regular expression
+
+    let x = userInput;
+
+    return ((x.match(numbers))? true : false);
+}
+
 
