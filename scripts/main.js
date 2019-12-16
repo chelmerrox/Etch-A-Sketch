@@ -106,6 +106,10 @@ function convertToNumber(userInput){
     return userInput;
 }
 
+function checkIfInteger(userInput){
+    return (Number.isInteger(userInput)? true : false);   
+}
+
 
 
 
