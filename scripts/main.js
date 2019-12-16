@@ -64,4 +64,32 @@ function removeGrid(){
     }
 }
 
+function askForUserInput(){
+    userInput = prompt('Enter a number from 2 to 100 to change the size of your sketch pad: ', '');
+
+    if (checkIfNumericString(userInput) === true){
+        userInput = convertToNumber(userInput);
+
+        if (checkIfInteger(userInput) === true){
+
+            if(checkIfWithinBoundary(userInput) === true){
+                removeGrid();
+                 
+                currentGridSize = userInput;
+
+                createGrid(userInput);
+            } else {
+
+                alert('Please enter an integer/a whole number from 2 to 100.');
+            }
+        } else {
+
+            alert('Please enter an integer/a whole number.');
+        }
+    } else {
+
+        alert('Please enter a number.');
+    }
+}
+
 
