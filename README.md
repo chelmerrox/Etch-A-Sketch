@@ -12,9 +12,9 @@ This is a difficult project where my knowledge on HTML, CSS and JavaScript and h
 
 ## Preview of the Etch-A-Sketch web page
 
-![Preview of my web page](images/etch-a-sketch-1.png)
+![Preview of my web page](images/etch-a-sketch-1.PNG)
 
-![Preview](images/etch-a-sketch-2.png)
+![Preview](images/etch-a-sketch-2.PNG)
 
 ## How to draw on the sketch pad
 
