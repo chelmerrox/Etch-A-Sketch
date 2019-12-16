@@ -8,7 +8,7 @@ to its original size.
 
 I have used HTML and CSS (HTML5 and CSS3) for this project. To make it dynamic and functional, I have also used JavaScript.
 
-This is a difficult project where my knowledge on HTML, CSS and JavaScript and how to use them together to build the front end of a web page are being tested.
+This is a difficult project where my knowledge on HTML, CSS and JavaScript and how to use them together to build the front-end of a web page are being tested.
 
 ## Preview of the Etch-A-Sketch web page
 
