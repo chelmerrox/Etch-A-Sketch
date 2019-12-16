@@ -123,3 +123,6 @@ function removeDrawing(e){
     }
 }
 
+
+//Function calls
+createGrid(initialGridSize);
