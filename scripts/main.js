@@ -114,4 +114,12 @@ function checkIfWithinBoundary(userInput){
     return ((userInput >= min_NumberOfSquares && userInput < 101)? true : false);
 }
 
+function removeDrawing(e){    
+    for (row = 1; row <= currentGridSize; row++){
+        for (square = 1; square <= currentGridSize; square++){
+            aSquareDiv = document.getElementById(`square-${row}-${square}`);
+            aSquareDiv.style.backgroundColor = 'white';
+        }
+    }
+}
 
