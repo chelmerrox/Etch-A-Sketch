@@ -100,4 +100,12 @@ function checkIfNumericString(userInput){
     return ((x.match(numbers))? true : false);
 }
 
+function convertToNumber(userInput){
+    userInput = Number(userInput);
+
+    return userInput;
+}
+
+
+
 
