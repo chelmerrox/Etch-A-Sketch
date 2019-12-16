@@ -126,3 +126,5 @@ function removeDrawing(e){
 
 //Function calls
 createGrid(initialGridSize);
+
+reset.addEventListener('click', resetGridSize); 
