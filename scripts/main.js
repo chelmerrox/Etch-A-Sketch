@@ -131,3 +131,4 @@ reset.addEventListener('click', resetGridSize);
 
 changeGridSize.addEventListener('click', askForUserInput);
 
+erase.addEventListener('click', removeDrawing);
