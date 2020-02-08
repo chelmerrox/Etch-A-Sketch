@@ -127,15 +127,16 @@ div > .rows{
     bottom: 0;
 }
 
-i, #year-author{
-    display: inline-block;
+#copyright-year-author{
+   /*  display: inline-block; 
     position: relative;
-    left: 500px;
+    left: 500px;*/
+    text-align: center;
     color: white;
     font-size: 15px;
 }
 
-#year-author{
+/* #year-author{
     position: relative;
     top: -6px;
-}
+} */
