@@ -9,7 +9,6 @@ body {
     min-height: 100vh;   /*100% viewport height (vh)*/
     padding-bottom: 47px;
     margin: 0;
-    padding: 0;
     background-color: white;
     display: block;
 }
